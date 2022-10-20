@@ -4,6 +4,9 @@ import keras
 from PIL import Image, ImageOps
 import numpy as np
 
+st.title("Como esta el perro APP")
+st.subheader("Sube una foto de un perro para conocer su estado de animo")
+
 uploaded_file = st.file_uploader("Carga una imagen ...", type=["jpg","jpeg"])
 if uploaded_file is not None:
   image = Image.open(uploaded_file)
