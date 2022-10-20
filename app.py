@@ -19,4 +19,4 @@ if uploaded_file is not None:
     result = "Relajado"
   else:
     result = "Triste" 
-st.subheader("El :dog: esta: "+ result)
+  st.subheader("El :dog: esta: "+ result)
